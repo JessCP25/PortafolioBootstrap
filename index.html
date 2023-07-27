@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+    <title>Jessica Payano | Frontend Developer</title>
+</head>
+<body>
+  <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="./img/icon.png" alt="Icono de la página">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- Sección hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal container d-flex gap-5 flex-wrap justify-content-center align-items-center ">
+        <div class="d-flex flex-column justify-content-center">
+          <h1>Hello, I am Jessica Payano</h1>
+          <h2>I develop websites and write articles about programming.</h2>
+        </div>
+        <img class="hero-img rounded-circle" src="./img/myAvatar.svg" alt="Avatar de Jessica Payano">
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-img img-fluid" src="./img/hero-inferior.svg" alt="Monitor, laptop, html, css js, react.">
+      </div>
+    </section>
+    <!-- About me -->
+    <section class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Know more about me</h2>
+        <p class="seccion-texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi vitae, soluta similique quos et impedit quia voluptas. Quae unde itaque temporibus voluptates magnam, facere quam nihil saepe eos reiciendis quo.
+        Ad, accusamus. Nesciunt, neque corrupti. Tempore necessitatibus iure dolorem dicta. Rerum earum, iste corrupti culpa totam debitis tenetur adipisci enim voluptatum, repellat necessitatibus. Eos error aliquam itaque sunt. Enim, adipisci.</p>
+      </div>
+    </section>
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, sed praesentium. Neque vitae dolore ut eveniet, blanditiis consequatur doloribus rerum ducimus. Praesentium dolor soluta voluptatibus veritatis vero, nostrum consequatur rem?</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-info ">HTML</span>
+              <span class="badge text-bg-info ">CSS</span>
+              <span class="badge text-bg-info ">JavaScript</span>
+              <span class="badge text-bg-info ">React</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-book-half"></i>
+            <p class="experiencia-titulo">Artículos</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, sed praesentium. Neque vitae dolore ut eveniet, blanditiis consequatur doloribus rerum ducimus. Praesentium dolor soluta voluptatibus veritatis vero, nostrum consequatur rem?</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-info ">Write</span>
+              <span class="badge text-bg-info ">Edit</span>
+              <span class="badge text-bg-info ">Blogs</span>            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-person-workspace"></i>
+            <p class="experiencia-titulo">Estudios</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, sed praesentium. Neque vitae dolore ut eveniet, blanditiis consequatur doloribus rerum ducimus. Praesentium dolor soluta voluptatibus veritatis vero, nostrum consequatur rem?</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-info ">Wordpress</span>
+              <span class="badge text-bg-info ">Mysql</span>
+              <span class="badge text-bg-info ">SEO</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Proyectos -->
+    <section class="proyectos-recientes seccion-clara d-flex flex-column ">
+      <h2 class="seccion-titulo texto-negro">My projects</h2>
+      <h3 class="seccion-descripcion">These are some projects:</h3>
+      <!-- Galeria de proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4 ">
+            <div class="proyecto">
+              <img src="https://www.atenascomunicacion.com/wp-content/uploads/2021/08/portfolio-deign.jpg" alt="">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4 ">
+            <div class="proyecto">
+              <img src="https://www.atenascomunicacion.com/wp-content/uploads/2021/08/portfolio-deign.jpg" alt="">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4 ">
+            <div class="proyecto">
+              <img src="https://www.atenascomunicacion.com/wp-content/uploads/2021/08/portfolio-deign.jpg" alt="">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4 ">
+            <div class="proyecto">
+              <img src="https://www.atenascomunicacion.com/wp-content/uploads/2021/08/portfolio-deign.jpg" alt="">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4 ">
+            <div class="proyecto">
+              <img src="https://www.atenascomunicacion.com/wp-content/uploads/2021/08/portfolio-deign.jpg" alt="">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4 ">
+            <div class="proyecto">
+              <img src="https://www.atenascomunicacion.com/wp-content/uploads/2021/08/portfolio-deign.jpg" alt="">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">Show more projects <i class="bi bi-arrow-right-circle-fill"></i></button>
+      </a>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
